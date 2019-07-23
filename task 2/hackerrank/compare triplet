@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a[3];
+    int b[3];
+    int i;
+    int alcrt=0,bobrt=0;
+     for(i=0;i<3;i++)
+    {  
+        cin>>a[i];   // enter alice rating
+    }
+    
+    for(i=0;i<3;i++)
+    {   
+        cin>>b[i];  // enter bobs rating
+    }
+    for(i=0;i<3;i++)
+    {
+        if(a[i]>b[i])
+           {
+               alcrt++;
+           }
+     else if(a[i]<b[i]) 
+           {
+               bobrt++;
+           }
+           
+    }
+    cout<<alcrt<<" "<<bobrt;
+    
+           
+   return 0;
+}
