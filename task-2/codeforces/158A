@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,k,i,j,a[100],c;
+	cin>>n;
+	cin>>k;
+	j=0;
+	for(i=0;i<n;i++)
+	{
+	   cin>>a[i];
+	}
+	c=a[k];
+	for(i=0;i<n;i++)
+	{
+	    if(a[i]>=c)
+	    {
+	     j++;
+	    } 
+	}
+	cout<<j;
+	return 0;
+}
+
