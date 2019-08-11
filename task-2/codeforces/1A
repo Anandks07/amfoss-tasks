@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int a,m,n,i;
+    cin>>n;
+    cin>>m;
+    cin>>a;
+	while((n*m)>(i*a*a))
+	{
+	    i++;
+	}
+	i=i+1;
+	cout<<i;
+}
