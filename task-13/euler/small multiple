@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {         \\ this program doesnt respond to certain test cases
+	int T,N,i,k,j;
+	cin>>T;
+	for(i=0;i<T;i++)
+	{
+	    cin>>N;
+	    k=1;
+	    for(j=1;j<N;j++)
+	    {
+	        k=k*j;
+	    }
+	  cout<<k<<"\n";  
+	}
+	return 0;
+}
