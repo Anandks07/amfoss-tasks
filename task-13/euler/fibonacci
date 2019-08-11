@@ -1,0 +1,35 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
+
+int main() {
+    int i,N,a,b,c,k,T;
+    int s[100000];
+    for(i=0;i<T;i++)
+  {
+    cin >>N;
+    k=0;
+    a = 0;
+    b = 1;
+    for (i = 1; i <= N; i++) {
+        c = a + b;
+        cin>>s[i-1];
+        a = b;
+        b = c;
+    }
+    for(i=0;i<N;i=i+2)
+    {
+        k=k+s[i];
+        
+    }
+    
+    cout<<k<<"\n";
+  }    
+    
+}
+
