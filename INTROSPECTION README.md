@@ -2,6 +2,7 @@ INTROSPECTION
 
  WHY ME?
 •	Eager to learn and to get things done.
+
 •	Have a Computer Science background.
 
 WEAKNESS
