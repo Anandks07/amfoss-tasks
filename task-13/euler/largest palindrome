@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, k, i, j;
+    cin >> n;
+    j = n;
+    n=n+1;
+    i = 0;
+  do {
+        n=n-1;
+        k = n % 10;
+        n = n / 10;
+        i = i * 10 + k;
+    }while(i!=j);
+    cout << i << endl;
+}
