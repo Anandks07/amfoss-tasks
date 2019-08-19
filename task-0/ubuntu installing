@@ -1,0 +1,9 @@
+I installed ubuntu with the help the help of this youtube video..(https://www.youtube.com/watch?v=u5QyjHIYwTQ)
+
+The steps were :
+1. Installing ubuntu from the ubuntu website->desktop.
+2. Formatting the usb.
+3. Downloading etcher and flashing the usb.(Luckily for me my friend had the usb with files flashed.)
+4. Partioning the available space in windows to get some unallocated space for ubuntu
+5. Restart the PC and go to boot manager to boot from the usb.
+6. Click on the install ubuntu file in the desktop and follow the instructions
