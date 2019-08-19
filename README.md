@@ -97,6 +97,8 @@ TASKS DONE AFTER INITIAL DEADLINE
 
 •	Made a blog.
 
+• Participated in the amFOSS code sprint 
+
 • Participated in the code sprint
 
 •	Along with this I tried learning GO and Rust for the respective challenges.
