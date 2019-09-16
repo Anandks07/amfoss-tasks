@@ -1,7 +1,8 @@
-require 'nokogiri'
 require 'open-uri'
-require 'pry'
+require 'nokogiri'
 
-doc = Nokogiri::HTML(open('https://www.google.com/search?q=linux&rlz=1C1SQJL_enIN857IN858&oq=linux&aqs=chrome.0.69i59j0l5.2535j0j7&sourceid=chrome&ie=UTF-8'))
-binding.pry
-ruby web_scraper.rb
+doc = Nokogiri::HTML(open("http://www.google.com/search?q=Linux&num=10"))
+doc.css('div.BNeawe.vvjwJb.AP7Wnd').each do |link|
+    text = link.text
+    puts text
+end
