@@ -1,9 +1,7 @@
-From: C:/Users/Anand/Desktop/nokogiri_tutorial/web_scraper.rb @ line 6 :
+require 'nokogiri'
+require 'open-uri'
+require 'pry'
 
-    1: require 'nokogiri'
-    2: require 'open-uri'
-    3: require 'pry'
-    4:
-    5: doc = Nokogiri::HTML(open('https://www.google.com/search?q=linux&rlz=1C1SQJL_enIN857IN858&oq=linux&aqs=chrome.0.69i59j0l5.2535j0j7&sourceid=chrome&ie=UTF-8'))
- => 6: binding.pry
-    7: ruby web_scraper.rb
+doc = Nokogiri::HTML(open('https://www.google.com/search?q=linux&rlz=1C1SQJL_enIN857IN858&oq=linux&aqs=chrome.0.69i59j0l5.2535j0j7&sourceid=chrome&ie=UTF-8'))
+binding.pry
+ruby web_scraper.rb
