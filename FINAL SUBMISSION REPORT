@@ -16,17 +16,15 @@ TASKS DONE AFTER INITIAL DEADLINE
 
 •	Task 0- Installing ubuntu
 •	Task 9- Setting up a simple website(Anandks07.github.io)
-•	Task 3 - scrapping. (there seems to be a small problem as instead of the top 10 searches, the source code is being scrapped)
+•	Task 3 - scrapping
 •	Task 15- completed two levels of bandit. 
 •	Task 8 - Did captcha breaking and have updated whatever I have done in the repository.
 •	Made a blog.
-• Participated in the amFOSS code sprint
+• Cloned the pong game using python
 •	Along with this I tried learning GO and Rust for the respective challenges.
 
 BLOCKERS
 
-•	In google scrapping with ruby, instead of getting only the top 10 searches , I also get the entire source code. The exact error with 
-  explanation is mentioned in the summary folder within the task-3 file
 •	For certain programs written especially in the Euler tasks, my submissions were not accepted due to time complexity issues. Such 
   submissions have been submitted in my repository and the issue have been duly mentioned as comment in the codes of such programs. 
 •	I have just made the website and hosted it with Github. The site does not have any content other than my name and a tagline,but I did
