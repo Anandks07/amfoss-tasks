@@ -1,0 +1,31 @@
+def isprime(num):
+    x=0
+    for i in range(2,num):
+        
+        if(num%i==0):
+            x=1
+
+    if(x==0):
+        return True
+    else:
+        return False
+
+def factor(num):
+    for i in range(1,num):
+        if(num%i==0):
+            if(isprime(i)):
+                return True
+            else:
+                return False
+        else:
+            return False
+
+T=int(input())
+for i in range(0,T):
+    a=0
+    n=int(input())
+    for j in range(0,n):
+        if(factor(j)):
+            while(a<j):
+                a=j
+    print(a)
