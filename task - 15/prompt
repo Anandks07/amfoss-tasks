@@ -5,15 +5,6 @@ C:\Users\Anand>ssh -p 2220 bandit0@bandit.labs.overthewire.org
 This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
 
 bandit0@bandit.labs.overthewire.org's password:                         // THE PASSWORD IS bandit0
-Permission denied, please try again.
-bandit0@bandit.labs.overthewire.org's password:
-Permission denied, please try again.
-bandit0@bandit.labs.overthewire.org's password:
-Connection closed by 176.9.9.172 port 2220
-
-C:\Users\Anand>-p 2220 bandit0@bandit.labs.overthewire.org
-'-p' is not recognized as an internal or external command,
-operable program or batch file.
 
 C:\Users\Anand>ssh -p 2220 bandit0@bandit.labs.overthewire.org
 This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
@@ -38,72 +29,101 @@ Linux bandit 4.18.12 x86_64 GNU/Linux
 
 Welcome to OverTheWire!
 
-If you find any problems, please report them to Steven or morla on
-irc.overthewire.org.
 
---[ Playing the games ]--
-
-  This machine might hold several wargames.
-  If you are playing "somegame", then:
-
-    * USERNAMES are somegame0, somegame1, ...
-    * Most LEVELS are stored in /somegame/.
-    * PASSWORDS for each level are stored in /etc/somegame_pass/.
-
-  Write-access to homedirectories is disabled. It is advised to create a
-  working directory with a hard-to-guess name in /tmp/.  You can use the
-  command "mktemp -d" in order to generate a random and hard to guess
-  directory in /tmp/.  Read-access to both /tmp/ and /proc/ is disabled
-  so that users can not snoop on eachother. Files and directories with
-  easily guessable or short names will be periodically deleted!
-
-  Please play nice:
-
-    * don't leave orphan processes running
-    * don't leave exploit-files laying around
-    * don't annoy other players
-    * don't post passwords or spoilers
-    * again, DONT POST SPOILERS!
-      This includes writeups of your solution on your blog or website!
-
---[ Tips ]--
-
-  This machine has a 64bit processor and many security-features enabled
-  by default, although ASLR has been switched off.  The following
-  compiler flags might be interesting:
-
-    -m32                    compile for 32bit
-    -fno-stack-protector    disable ProPolice
-    -Wl,-z,norelro          disable relro
-
-  In addition, the execstack tool can be used to flag the stack as
-  executable on ELF binaries.
-
-  Finally, network-access is limited for most levels by a local
-  firewall.
-
---[ Tools ]--
-
- For your convenience we have installed a few usefull tools which you can find
- in the following locations:
-
-    * pwndbg (https://github.com/pwndbg/pwndbg) in /usr/local/pwndbg/
-    * peda (https://github.com/longld/peda.git) in /usr/local/peda/
-    * gdbinit (https://github.com/gdbinit/Gdbinit) in /usr/local/gdbinit/
-    * pwntools (https://github.com/Gallopsled/pwntools)
-    * radare2 (http://www.radare.org/)
-    * checksec.sh (http://www.trapkit.de/tools/checksec.html) in /usr/local/bin/checksec.sh
-
---[ More information ]--
-
-  For more information regarding individual wargames, visit
-  http://www.overthewire.org/wargames/
-
-  For support, questions or comments, contact us through IRC on
-  irc.overthewire.org #wargames.
-
-  Enjoy your stay!
 
 bandit0@bandit:~$ cat readme
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1       //PASSWORD FOR LEVEL 1
 bandit0@bandit:~$
+
+
+bandit2@bandit:~$ ls
+spaces in this filename
+bandit2@bandit:~$ cat spaces\ in\ this\ filename
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+bandit3@bandit:~$ ls
+inhere
+bandit3@bandit:~$ cd inhere/
+bandit3@bandit:~/inhere$ ls
+bandit3@bandit:~/inhere$ ls -a
+.  ..  .hidden
+bandit3@bandit:~/inhere$ ls -la
+total 12
+drwxr-xr-x 2 root    root    4096 Oct 16  2018 .
+drwxr-xr-x 3 root    root    4096 Oct 16  2018 ..
+-rw-r----- 1 bandit4 bandit3   33 Oct 16  2018 .hidden
+bandit3@bandit:~/inhere$ cat .hidden
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+bandit4@bandit:~$ ls
+inhere
+bandit4@bandit:~$ cd inhere
+bandit4@bandit:~/inhere$ ls -a
+.   -file00  -file02  -file04  -file06  -file08
+..  -file01  -file03  -file05  -file07  -file09
+bandit4@bandit:~/inhere$ cat file01
+cat: file01: No such file or directory
+bandit4@bandit:~/inhere$ cat file07
+cat: file07: No such file or directory
+bandit4@bandit:~/inhere$ cat -file2
+cat: invalid option -- 'f'
+Try 'cat --help' for more information.
+bandit4@bandit:~/inhere$ cat -file02
+cat: invalid option -- 'f'
+Try 'cat --help' for more information.
+bandit4@bandit:~/inhere$ cat -file07
+cat: invalid option -- 'f'
+Try 'cat --help' for more information.
+bandit4@bandit:~/inhere$ cat ./-file03
+��.A��u��#���w$N?c�-��Db3��=��bandit4@bandit:~/inhere$ cat ./-file02
+�T�v��(�ִ�����A*�
+2J�Ş؇_�y7bandit4@bandit:~/inhere$ cat ./-file07
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+bandit5@bandit:~$ ls
+inhere
+bandit5@bandit:~$ cd inhere
+bandit5@bandit:~/inhere$ find . -type f -readable ! -executable - size 1033c
+bandit5@bandit:~/inhere$ ./maybehere07/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+
+bandit6@bandit:~$ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+bandit7@bandit:~$ ls
+data.txt
+bandit7@bandit:~$ cat data.txt |grep "millionth"
+millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+
+bandit8@bandit:~$ ls
+data.txt
+bandit8@bandit:~$ cat data.txt|sort|uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+bandit9@bandit:~$ ls
+data.txt
+bandit9@bandit:~$ strings data.txt | grep "="
+2========== the
+========== password
+>t=	yP
+rV~dHm=
+========== isa
+=FQ?P\U
+=	F[
+pb=x
+J;m=
+=)$=
+========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+iv8!=
+
+bandit10@bandit:~$ ls
+data.txt
+bandit10@bandit:~$ cat data.txt |base64 --decode
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+
