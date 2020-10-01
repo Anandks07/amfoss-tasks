@@ -1,25 +1,25 @@
 # amfoss-tasks
-#introspection,readmea&tasks-in-code-section
+# introspection,readmea & tasks-in-code-section
 
 # INTROSPECTION
 
- WHY ME?
+ > WHY ME?
  
  
 •	Eager to learn and to get things done.
 
 •	Have a Computer Science background.
 
-WEAKNESS
+> WEAKNESS
 
 
 •	Feels demotivated when getting error after lot of work.
 
 •	Not able to learn a lot of languages in a month.
 
-HOW WERE YOU BEFORE AND AFTER JOINING?
+> HOW WERE YOU BEFORE AND AFTER JOINING?
 
- BEFORE:
+ + BEFORE:
  
  
 •	Had only basic knowledge in C++.
@@ -28,7 +28,7 @@ HOW WERE YOU BEFORE AND AFTER JOINING?
 
 •	Only text book or school level knowledge.
 
-AFTER:
+ + AFTER:
 
 
 •	Got familiar with competitive programming sites.
@@ -41,7 +41,7 @@ AFTER:
 
 •	Got familiar with ruby and Go on a very marginal level
 
-ABOUT THE SELECTION PROCESS.
+> ABOUT THE SELECTION PROCESS.
 
 
 •	The selection process was well organized and monitored.
@@ -51,7 +51,7 @@ ABOUT THE SELECTION PROCESS.
 •	It is not very possible to get familiar with many languages and software in a month. It would be good if all the tasks are in one or 
   two languages, so that we can attempt more number of tasks on subjects in which we have an idea thereby increasing time for doing       tasks and reducing the bigger learning time.
   
-PLAN FOR NEXT 6  MONTHS
+> PLAN FOR NEXT 6  MONTHS
 
 
 •	If selected, will indulge in club activities.
@@ -60,7 +60,7 @@ PLAN FOR NEXT 6  MONTHS
 
 •	Technically, idk.. depends on what happens
 
-CONTRIBUTING BACK
+> CONTRIBUTING BACK
 
 
 •	Will be regular in club related activities.
@@ -71,7 +71,7 @@ CONTRIBUTING BACK
 
 # FINAL SUBMISSION REPORT 
 
-amFOSS FRESHERS TASKS
+> amFOSS FRESHERS TASKS
 
 PLEASE NOTE: The explanation of how I approached the tasks can be found in the github repository. For all the tasks done before the deadline you can find the explanation directly at the amfoss task repository, while for the tasks done after the deadline you may find them in the respective task folders.
 
