@@ -1,18 +1,18 @@
-FINAL SUBMISSION REPORT 
+# FINAL SUBMISSION REPORT 
 
-amFOSS FRESHERS TASKS
+## amFOSS FRESHERS TASKS
 
-PLEASE NOTE: The explanation of how I approached the tasks can be found in the github repository. For all the tasks done before the
+> PLEASE NOTE: The explanation of how I approached the tasks can be found in the github repository. For all the tasks done before the
 deadline you can find the explanation directly at the amfoss task repository, while for the tasks done after the deadline you may find them
 in the respective task folders.
 
-TASKS DONE BEFORE INITIAL DEADLINE.
+### TASKS DONE BEFORE INITIAL DEADLINE.
 
 •	TASK-1
 •	TASK-2( Hackerrank and Codeforces )
 •	TASK-13
 
-TASKS DONE AFTER INITIAL DEADLINE
+### TASKS DONE AFTER INITIAL DEADLINE
 
 •	Task 0- Installing ubuntu
 •	Task 9- Setting up a simple website(Anandks07.github.io)
@@ -23,7 +23,7 @@ TASKS DONE AFTER INITIAL DEADLINE
 • Cloned the pong game using python
 •	Along with this I tried learning GO and Rust for the respective challenges.
 
-BLOCKERS
+### BLOCKERS
 
 •	For certain programs written especially in the Euler tasks, my submissions were not accepted due to time complexity issues. Such 
   submissions have been submitted in my repository and the issue have been duly mentioned as comment in the codes of such programs. 
