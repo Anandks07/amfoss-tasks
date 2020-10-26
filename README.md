@@ -46,7 +46,7 @@
 
 •	The selection process was well organized and monitored.
 
-•	Frequent reminders by admin helped in increasing net productivity
+•	Frequent reminders by admin helped in increasing net productivity.
 
 •	It is not very possible to get familiar with many languages and software in a month. It would be good if all the tasks are in one or 
   two languages, so that we can attempt more number of tasks on subjects in which we have an idea thereby increasing time for doing       tasks and reducing the bigger learning time.
